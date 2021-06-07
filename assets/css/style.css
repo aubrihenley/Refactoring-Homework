@@ -14,7 +14,7 @@ body {
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* next two groups of code create the multi-color company name at top left*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -31,12 +31,9 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/*
-.header div ul {
-    list-style-type: none;
-}
-*/
+
 .header div ul li {
+
     display: inline-block;
     margin-left: 25px;
 }
@@ -44,10 +41,6 @@ body {
 a {
     color: #ffffff;
     text-decoration: none;
-}
-
-p {
-    font-size: 16px;
 }
 
 .hero {
@@ -75,32 +68,10 @@ p {
     margin-left: 20px;
 }
 
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-/* consolidated repeated code for right sidebar styling */
-.benefit-title {
-    margin-bottom: 32px;
-    color: #ffffff;
+p {
+    font-size: 16px;
 }
 
-.benefit-title h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-title img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
 /* consolidated redundant code for main content*/
 .main-content {
     margin-bottom: 20px;
@@ -121,6 +92,43 @@ p {
     font-size: 36px;
 }
 
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* consolidated repeated code for right sidebar styling */
+.benefit-title {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-title h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-title img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
 .footer {
     padding: 30px;
     clear: both;
